@@ -25,5 +25,6 @@ void Checkline(int argc, char **argv){
     for (i = 1; i < argc - 1;i++){
         printf("option %d : %s\n", i, argv[i]);
     }
-    printf("filename : %s\n", argv[argc-1]);
+    
+    //printf("filename : %s\n", argv[argc-1]);//
 }
